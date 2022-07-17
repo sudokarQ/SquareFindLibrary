@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareFind", "ClassLibrary2\SquareFind.csproj", "{B64032C2-EE6D-40D9-A064-A364E2EAD112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareFindLibTest", "SquareFindLibTest\SquareFindLibTest.csproj", "{2990ED8A-0087-4135-AD29-83A5EB63A1C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B64032C2-EE6D-40D9-A064-A364E2EAD112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64032C2-EE6D-40D9-A064-A364E2EAD112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64032C2-EE6D-40D9-A064-A364E2EAD112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64032C2-EE6D-40D9-A064-A364E2EAD112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2990ED8A-0087-4135-AD29-83A5EB63A1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2990ED8A-0087-4135-AD29-83A5EB63A1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2990ED8A-0087-4135-AD29-83A5EB63A1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2990ED8A-0087-4135-AD29-83A5EB63A1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {530181F5-DB92-4246-BE53-5D0B34634752}
+	EndGlobalSection
+EndGlobal

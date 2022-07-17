@@ -7,7 +7,7 @@ namespace SquareFindLibTest
     [TestClass]
     public class UnitTest1
     {
-        // положительный тест поиска площади круга
+        // РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№ С‚РµСЃС‚ РїРѕРёСЃРєР° РїР»РѕС‰Р°РґРё РєСЂСѓРіР°
         [TestMethod]
         public void Radius10CirclePositiveTest()
         {
@@ -17,14 +17,14 @@ namespace SquareFindLibTest
             Assert.AreEqual(expected, actual);
         }
 
-        // отрицательный радиус круга
+        // РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№ СЂР°РґРёСѓСЃ РєСЂСѓРіР°
         [TestMethod]
         public void NegativeRadiusCircleTest()
         {
             Assert.ThrowsException<ArgumentException>(() => new Circle(-10));
         }
 
-        // нулевой радиус круга
+        // РЅСѓР»РµРІРѕР№ СЂР°РґРёСѓСЃ РєСЂСѓРіР°
         [TestMethod]
         public void ZeroRadiusCircleTest()
         {
@@ -32,7 +32,7 @@ namespace SquareFindLibTest
             
         }
 
-        // положительный тест поиска площади треугольника
+        // РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№ С‚РµСЃС‚ РїРѕРёСЃРєР° РїР»РѕС‰Р°РґРё С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
         [TestMethod]
         public void Sides3_4_5TrianglePositiveTest()
         {
@@ -42,7 +42,7 @@ namespace SquareFindLibTest
             Assert.AreEqual(expected, actual);
         }
 
-        // тест на построение невозможных треугольников
+        // С‚РµСЃС‚ РЅР° РїРѕСЃС‚СЂРѕРµРЅРёРµ РЅРµРІРѕР·РјРѕР¶РЅС‹С… С‚СЂРµСѓРіРѕР»СЊРЅРёРєРѕРІ
         [TestMethod]
         public void ImpossibleTriangleTest()
         {
@@ -52,7 +52,7 @@ namespace SquareFindLibTest
             Assert.ThrowsException<ArgumentException>(() => new Triangle(2, 5, 3));
         }
 
-        // тест на негативные стороны
+        // С‚РµСЃС‚ РЅР° РЅРµРіР°С‚РёРІРЅС‹Рµ СЃС‚РѕСЂРѕРЅС‹
         [TestMethod]
         public void NegativeSideTriangleTest()
         {
@@ -62,7 +62,7 @@ namespace SquareFindLibTest
             Assert.ThrowsException<ArgumentException>(() => new Triangle(-1, -1, -1));
         }
 
-        // тест на нулевые стороны
+        // С‚РµСЃС‚ РЅР° РЅСѓР»РµРІС‹Рµ СЃС‚РѕСЂРѕРЅС‹
         [TestMethod]
         public void ZeroSideTriangleTest()
         {
@@ -72,7 +72,7 @@ namespace SquareFindLibTest
             Assert.ThrowsException<ArgumentException>(() => new Triangle(0, 0, 0));
         }
 
-        // положительный тест на прямоугольный треугольник
+        // РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№ С‚РµСЃС‚ РЅР° РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє
         [TestMethod]
         public void IsRightTrianglePositiveTest()
         {
@@ -80,7 +80,7 @@ namespace SquareFindLibTest
             Assert.IsTrue(triangle.IsRightTriangle);
         }
 
-        // отрицательный тест на прямоугольный треугольник
+        // РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№ С‚РµСЃС‚ РЅР° РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє
         [TestMethod]
         public void IsRightTriangleNegativeTest()
         {
